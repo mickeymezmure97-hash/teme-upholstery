@@ -1,0 +1,219 @@
+.services-section {
+  background-color: var(--bg-primary);
+  position: relative;
+}
+
+.services-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 100px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.filter-btn:hover {
+  background: var(--bg-surface-hover);
+  color: #ffffff;
+  border-color: var(--border-medium);
+}
+
+.filter-btn.active {
+  background: linear-gradient(135deg, rgba(230, 57, 70, 0.2) 0%, rgba(230, 57, 70, 0.05) 100%);
+  color: #ffffff;
+  border-color: var(--accent-red);
+  box-shadow: 0 0 16px rgba(230, 57, 70, 0.2);
+}
+
+/* Services Grid Showcase */
+.services-grid-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.service-showcase-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--bg-surface);
+}
+
+.service-card-media {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  background: #000000;
+}
+
+.service-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.service-showcase-card:hover .service-card-image {
+  transform: scale(1.05);
+}
+
+.service-card-tag-simple {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.service-card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.service-card-title {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin-bottom: 0.6rem;
+  color: #ffffff;
+}
+
+.service-card-desc {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+}
+
+.service-specs-list {
+  background: rgba(8, 9, 11, 0.5);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: auto;
+}
+
+.specs-heading {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: var(--accent-red);
+  margin-bottom: 0.6rem;
+}
+
+.service-specs-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.service-specs-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+
+.service-specs-list li svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.service-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-subtle);
+  gap: 0.75rem;
+}
+
+.book-service-btn {
+  padding: 0.65rem 1.2rem;
+  font-size: 0.85rem;
+}
+
+.service-call-link {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+}
+
+.service-call-link:hover {
+  color: var(--accent-orange);
+}
+
+/* Phone View Optimization */
+@media (max-width: 768px) {
+  .services-grid-showcase {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .services-filter-bar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 0 1rem 0.75rem 1rem;
+    margin: 0 -1rem 1.75rem -1rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .services-filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+  .filter-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.8rem;
+  }
+  .service-card-media {
+    height: 220px;
+  }
+  .service-card-body {
+    padding: 1.25rem 1rem;
+  }
+  .service-card-title {
+    font-size: 1.18rem;
+  }
+  .service-card-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.6rem;
+  }
+  .book-service-btn {
+    width: 100%;
+    padding: 0.85rem;
+    font-size: 0.95rem;
+  }
+  .service-call-link {
+    text-align: center;
+    padding: 0.3rem 0;
+    font-size: 0.9rem;
+  }
+}
