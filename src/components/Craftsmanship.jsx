@@ -1,53 +1,10 @@
 import React from 'react';
-import { ShieldIcon, CheckIcon, CarIcon, ClockIcon, PhoneIcon } from './Icons';
 import './Craftsmanship.css';
 
 const Craftsmanship = () => {
   return (
     <section id="about" className="section about-section">
       <div className="container">
-        <div className="section-header">
-          <span className="section-eyebrow">ABOUT TEME UPHOLSTERY</span>
-          <h2>Why Choose Us</h2>
-          <p>
-            Clean work. Honest prices. Done right.
-          </p>
-        </div>
-
-        {/* 4 Simple Feature Cards */}
-        <div className="features-grid-simple">
-          <div className="simple-card card-atelier">
-            <div className="card-number">01</div>
-            <h3>Automotive Specialists</h3>
-            <p>
-              Every tool, machine, and technician in our workshop is dedicated exclusively to cars, SUVs, pickups, and 4x4s.
-            </p>
-          </div>
-
-          <div className="simple-card card-atelier">
-            <div className="card-number">02</div>
-            <h3>Quality Materials</h3>
-            <p>
-              We use automotive-grade leather that won't crack or fade in the sun. Built to handle daily wear.
-            </p>
-          </div>
-
-          <div className="simple-card card-atelier">
-            <div className="card-number">03</div>
-            <h3>10+ Years Experience</h3>
-            <p>
-              Thousands of cars completed in Addis Ababa. We make sure every seam fits perfectly.
-            </p>
-          </div>
-
-          <div className="simple-card card-atelier">
-            <div className="card-number">04</div>
-            <h3>Fast Turnaround</h3>
-            <p>
-              Steering wheels done same day. Full interiors handled quickly without cutting corners.
-            </p>
-          </div>
-        </div>
 
         {/* Simple Frequently Asked Questions (Reference Style) */}
         <div className="simple-faq-section card-atelier">

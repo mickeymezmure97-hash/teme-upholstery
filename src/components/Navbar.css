@@ -2,14 +2,14 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(253, 251, 247, 0.95);
+  background: rgba(235, 229, 216, 0.95);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-subtle);
 }
 
 .top-bar {
-  background: #f4f0e6;
+  background: var(--bg-secondary);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   font-size: 0.8rem;
   color: var(--text-muted);
@@ -191,7 +191,7 @@
 
 /* Mobile Drawer Menu */
 .mobile-nav-drawer {
-  background: rgba(253, 251, 247, 0.98);
+  background: rgba(235, 229, 216, 0.98);
   border-bottom: 1px solid var(--border-medium);
   padding: 1.5rem;
   animation: slideDown 0.3s cubic-bezier(0.16, 1, 0.3, 1);

@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
 import { 
-  SteeringIcon, 
-  SeatIcon, 
-  DoorIcon, 
-  SparkleIcon, 
   CheckIcon, 
   ArrowRightIcon 
 } from './Icons';
@@ -50,28 +46,24 @@ const Services = ({ onSelectService }) => {
             className={`filter-btn ${activeTab === 'seats' ? 'active' : ''}`}
             onClick={() => setActiveTab('seats')}
           >
-            <SeatIcon size={16} />
             <span>Seats &amp; Interiors</span>
           </button>
           <button 
             className={`filter-btn ${activeTab === 'steering' ? 'active' : ''}`}
             onClick={() => setActiveTab('steering')}
           >
-            <SteeringIcon size={16} />
             <span>Steering Wheels</span>
           </button>
           <button 
             className={`filter-btn ${activeTab === 'doors' ? 'active' : ''}`}
             onClick={() => setActiveTab('doors')}
           >
-            <DoorIcon size={16} />
             <span>Door Panels</span>
           </button>
           <button 
             className={`filter-btn ${activeTab === 'lighting' ? 'active' : ''}`}
             onClick={() => setActiveTab('lighting')}
           >
-            <SparkleIcon size={16} />
             <span>Starlight Roofs</span>
           </button>
         </div>
@@ -87,9 +79,6 @@ const Services = ({ onSelectService }) => {
                   className="service-card-image" 
                   loading="lazy"
                 />
-                <div className="service-card-tag-simple">
-                  <span className="badge badge-red">{service.tag}</span>
-                </div>
               </div>
 
               <div className="service-card-body">

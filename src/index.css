@@ -1,9 +1,9 @@
 :root {
-  --bg-primary: #fdfbf7;
-  --bg-secondary: #f4f0e6;
+  --bg-primary: #ebe5d8;
+  --bg-secondary: #ded6c5;
   --bg-surface: #ffffff;
-  --bg-surface-hover: #f9f7f2;
-  --bg-glass: rgba(255, 255, 255, 0.85);
+  --bg-surface-hover: #f5efe4;
+  --bg-glass: rgba(235, 229, 216, 0.9);
   
   --accent-red: #c1121f;
   --accent-red-hover: #9e0e18;
@@ -49,9 +49,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background-image: 
-    radial-gradient(circle at 50% 30%, transparent 20%, rgba(0, 0, 0, 0.5) 100%),
-    url("data:image/svg+xml,%3Csvg width='84' height='88' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.08'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
-    radial-gradient(circle at 50% -10%, rgba(255, 255, 255, 1) 0%, transparent 70%);
+    radial-gradient(circle at 50% 30%, transparent 20%, rgba(0, 0, 0, 0.45) 100%),
+    url("data:image/svg+xml,%3Csvg width='84' height='88' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(circle at 50% -10%, rgba(255, 255, 255, 0.35) 0%, transparent 70%);
   background-attachment: fixed;
 }
 
@@ -273,63 +273,10 @@ img {
   color: #ffffff;
 }
 
-/* Mobile Sticky Bottom Action Bar (App-like experience on phones) */
-.mobile-bottom-bar {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
-  padding: 0.65rem 1rem;
-  padding-bottom: max(0.65rem, env(safe-area-inset-bottom));
-  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.06);
-  gap: 0.75rem;
-}
-
-.mobile-bar-btn {
-  flex: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.8rem 0.5rem;
-  border-radius: 10px;
-  font-family: var(--font-display);
-  font-size: 0.92rem;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  white-space: nowrap;
-  touch-action: manipulation;
-}
-
-.mobile-call-btn {
-  background: linear-gradient(135deg, #ff5722 0%, #e64a19 100%);
-  color: #ffffff;
-  box-shadow: 0 2px 10px rgba(255, 87, 34, 0.4);
-}
-
-.mobile-book-btn {
-  background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
-  color: #ffffff;
-  box-shadow: 0 2px 10px rgba(230, 57, 70, 0.4);
-}
-
 /* Responsive Rules for Phones */
 @media (max-width: 768px) {
-  body {
-    padding-bottom: 70px; /* Space for the fixed bottom bar */
-  }
   .desktop-only {
     display: none !important;
-  }
-  .mobile-bottom-bar {
-    display: flex;
   }
   .section {
     padding: 3.75rem 0;

@@ -5,20 +5,13 @@ import Services from './components/Services';
 import Craftsmanship from './components/Craftsmanship';
 import BookingForm from './components/BookingForm';
 import Footer from './components/Footer';
-import { PhoneIcon, CalendarIcon } from './components/Icons';
+import { PhoneIcon } from './components/Icons';
 
 function App() {
   const [selectedService, setSelectedService] = useState('steering-wheel');
 
   const handleSelectService = (serviceKey) => {
     setSelectedService(serviceKey);
-  };
-
-  const scrollToBooking = () => {
-    const element = document.getElementById('booking');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
   };
 
   return (
@@ -41,18 +34,6 @@ function App() {
         <PhoneIcon size={20} color="#ffffff" />
         <span className="floating-text">Call 0903 51 11 11</span>
       </a>
-
-      {/* Mobile Sticky Bottom Action Bar (Perfect Phone UX) */}
-      <div className="mobile-bottom-bar">
-        <a href="tel:0903511111" className="mobile-bar-btn mobile-call-btn">
-          <PhoneIcon size={18} />
-          <span>Call 0903 51 11 11</span>
-        </a>
-        <button type="button" onClick={scrollToBooking} className="mobile-bar-btn mobile-book-btn">
-          <CalendarIcon size={18} />
-          <span>Book Service</span>
-        </button>
-      </div>
     </div>
   );
 }

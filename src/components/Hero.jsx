@@ -8,14 +8,6 @@ const Hero = () => {
       <div className="container hero-container">
         <div className="hero-grid">
           <div className="hero-content">
-            <div className="hero-logo-badge">
-              <img 
-                src={`${import.meta.env.BASE_URL}logo.png`} 
-                alt="TEME Upholstery Logo" 
-                className="hero-logo-emblem" 
-              />
-              <span className="hero-badge-text">Cars, SUVs &amp; Pickups Specialists</span>
-            </div>
 
             <h1 className="hero-title">
               Premium Car Upholstery in Addis Ababa
