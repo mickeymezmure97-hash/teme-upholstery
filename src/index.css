@@ -49,9 +49,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background-image: 
-    url("data:image/svg+xml,%3Csvg width='84' height='88' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.06'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
-    radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 1) 0%, transparent 70%),
-    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);
+    radial-gradient(circle at 50% 30%, transparent 20%, rgba(0, 0, 0, 0.5) 100%),
+    url("data:image/svg+xml,%3Csvg width='84' height='88' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.08'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(circle at 50% -10%, rgba(255, 255, 255, 1) 0%, transparent 70%);
   background-attachment: fixed;
 }
 
