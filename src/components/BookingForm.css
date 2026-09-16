@@ -92,7 +92,7 @@
 }
 
 .call-box-banner {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
   padding: 1.15rem;
@@ -152,7 +152,7 @@
 .form-group input,
 .form-group select,
 .form-group textarea {
-  background: #ffffff;
+  background: #121419;
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
   padding: 0.85rem 1rem;
@@ -163,8 +163,8 @@
 }
 
 .form-group select option {
-  background: #ffffff;
-  color: var(--text-primary);
+  background: #181a20;
+  color: #ffffff;
 }
 
 .form-group input:focus,
@@ -172,8 +172,8 @@
 .form-group textarea:focus {
   outline: none;
   border-color: var(--accent-red);
-  box-shadow: 0 0 0 3px rgba(193, 18, 31, 0.2);
-  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(139, 30, 47, 0.3);
+  background: #15181f;
 }
 
 .form-submit-btn {
@@ -203,8 +203,9 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: rgba(230, 57, 70, 0.12);
+  background: rgba(158, 28, 54, 0.2);
   border: 2px solid var(--accent-red);
+  box-shadow: 0 0 16px rgba(158, 28, 54, 0.35);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,7 +223,7 @@
 }
 
 .success-box-simple {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
   padding: 1rem 2rem;

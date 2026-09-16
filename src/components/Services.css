@@ -35,10 +35,10 @@
 }
 
 .filter-btn.active {
-  background: linear-gradient(135deg, rgba(193, 18, 31, 0.15) 0%, rgba(193, 18, 31, 0.05) 100%);
-  color: var(--accent-red);
-  border-color: var(--accent-red);
-  box-shadow: 0 0 16px rgba(193, 18, 31, 0.1);
+  background: linear-gradient(135deg, rgba(158, 28, 54, 0.32) 0%, rgba(92, 6, 23, 0.42) 100%);
+  color: #ffffff;
+  border-color: rgba(214, 60, 94, 0.55);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2), 0 0 16px rgba(158, 28, 54, 0.3);
 }
 
 /* Services Grid Showcase */
@@ -59,7 +59,7 @@
   position: relative;
   height: 280px;
   overflow: hidden;
-  background: #fdfbf7;
+  background: #14171d;
 }
 
 .service-card-image {
@@ -102,7 +102,7 @@
 }
 
 .service-specs-list {
-  background: rgba(0, 0, 0, 0.02);
+  background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--border-subtle);
   border-radius: 8px;
   padding: 1rem;

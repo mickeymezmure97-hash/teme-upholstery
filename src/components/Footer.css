@@ -1,5 +1,5 @@
 .site-footer {
-  background: #f4f0e6;
+  background: var(--bg-secondary);
   border-top: 1px solid var(--border-subtle);
   padding: 4rem 0 0 0;
   position: relative;
@@ -66,10 +66,10 @@
   align-items: center;
   font-size: 0.75rem;
   font-weight: 700;
-  color: #ff6b77;
+  color: #fca5b5;
   padding: 0.4rem 0.85rem;
-  background: rgba(230, 57, 70, 0.1);
-  border: 1px solid rgba(230, 57, 70, 0.25);
+  background: rgba(158, 28, 54, 0.18);
+  border: 1px solid rgba(214, 60, 94, 0.35);
   border-radius: 6px;
   width: fit-content;
 }
@@ -131,8 +131,8 @@
 }
 
 .footer-bottom-bar {
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
-  background: #eae2d1;
+  border-top: 1px solid var(--border-subtle);
+  background: var(--bg-primary);
   padding: 1.5rem 0;
 }
 
