@@ -8,9 +8,9 @@ const Craftsmanship = () => {
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">ABOUT TEME UPHOLSTERY</span>
-          <h2>Why Car Owners Choose Us</h2>
+          <h2>Why Choose Us</h2>
           <p>
-            We are known across Addis Ababa for clean work, honest prices, and fast turnaround.
+            Clean work. Honest prices. Done right.
           </p>
         </div>
 
@@ -26,9 +26,9 @@ const Craftsmanship = () => {
 
           <div className="simple-card card-atelier">
             <div className="card-number">02</div>
-            <h3>Real Quality Leather</h3>
+            <h3>Quality Materials</h3>
             <p>
-              We use strong automotive leather that does not crack, fade, or tear in the sun. Easy to clean and very comfortable.
+              We use automotive-grade leather that won't crack or fade in the sun. Built to handle daily wear.
             </p>
           </div>
 
@@ -36,15 +36,15 @@ const Craftsmanship = () => {
             <div className="card-number">03</div>
             <h3>10+ Years Experience</h3>
             <p>
-              Over 5,000 cars completed in Addis Ababa. Our master stitchers make sure every seam and cut fits your car perfectly.
+              Thousands of cars completed in Addis Ababa. We make sure every seam fits perfectly.
             </p>
           </div>
 
           <div className="simple-card card-atelier">
             <div className="card-number">04</div>
-            <h3>Fast Service</h3>
+            <h3>Fast Turnaround</h3>
             <p>
-              Steering wheels done the same day. Full seats done quickly with careful attention so you get your car back on time.
+              Steering wheels done same day. Full interiors handled quickly without cutting corners.
             </p>
           </div>
         </div>
@@ -52,14 +52,13 @@ const Craftsmanship = () => {
         {/* Simple Frequently Asked Questions (Reference Style) */}
         <div className="simple-faq-section card-atelier">
           <div className="faq-header">
-            <h3>Frequently Asked Questions</h3>
-            <p>Common questions from our clients in Addis Ababa:</p>
+            <h3>Common Questions</h3>
           </div>
 
           <div className="faq-grid">
             <div className="faq-item">
-              <h4>Where is your workshop in Addis Ababa?</h4>
-              <p>Our workshop is in Addis Ababa, Ethiopia. Call us at <strong>0903 51 11 11</strong> and we will share our location or guide you directly.</p>
+              <h4>Where are you located?</h4>
+              <p>Our workshop is in Addis Ababa. Call us at <strong>0903 51 11 11</strong> for exact directions.</p>
             </div>
 
             <div className="faq-item">

@@ -18,31 +18,31 @@ const Hero = () => {
             </div>
 
             <h1 className="hero-title">
-              Best Car Upholstery &amp; Interior Work in Addis Ababa
+              Premium Car Upholstery in Addis Ababa
             </h1>
 
             <p className="hero-description">
-              Make your car interior look brand new. We do custom leather seat covers, hand-stitched steering wheels, door panels, starlight ceilings, and floor mats with top quality materials.
+              We upgrade and restore car interiors. From custom leather seats and hand-stitched steering wheels to starlight roofs, we deliver clean work using durable materials.
             </p>
 
             <div className="hero-simple-points">
               <div className="simple-point">
                 <CheckIcon size={16} color="#e63946" />
-                <span>Original fit for all car brands and models</span>
+                <span>Factory-fit finish for any make and model</span>
               </div>
               <div className="simple-point">
                 <CheckIcon size={16} color="#e63946" />
-                <span>Strong, clean, and long-lasting leather</span>
+                <span>Durable, easy-to-clean automotive leather</span>
               </div>
               <div className="simple-point">
                 <CheckIcon size={16} color="#e63946" />
-                <span>Fast and reliable service in Addis Ababa</span>
+                <span>Fast turnaround right here in Addis</span>
               </div>
             </div>
 
             <div className="hero-actions">
               <a href="#booking" className="btn btn-primary hero-btn-main">
-                <span>Book Service Now</span>
+                <span>Book a Spot</span>
                 <ArrowRightIcon size={16} />
               </a>
               <a href="tel:0903511111" className="btn btn-call">

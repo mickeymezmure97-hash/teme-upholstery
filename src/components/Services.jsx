@@ -32,9 +32,9 @@ const Services = ({ onSelectService }) => {
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">WHAT WE DO</span>
-          <h2>Our Services &amp; Real Work</h2>
+          <h2>Our Services</h2>
           <p>
-            Here are real photos of cars we finished in our workshop. Look at our work below and pick the service you want for your car.
+            Real photos of our own work. Browse below and select a service to book a spot.
           </p>
         </div>
 

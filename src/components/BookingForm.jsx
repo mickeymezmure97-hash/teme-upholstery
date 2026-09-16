@@ -50,9 +50,9 @@ const BookingForm = ({ selectedServiceKey }) => {
       <div className="container">
         <div className="section-header">
           <span className="section-eyebrow">BOOK AN APPOINTMENT</span>
-          <h2>Book Your Car Service</h2>
+          <h2>Book a Spot</h2>
           <p>
-            Fill out this quick form or call us directly. We will prepare the leather and confirm your drop-off time.
+            Drop your details below or call us directly. We'll prep the leather and confirm your drop-off time.
           </p>
         </div>
 

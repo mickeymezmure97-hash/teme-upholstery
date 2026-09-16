@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="footer-about">
-            Professional car interior upholstery and customization in Addis Ababa. We specialize exclusively in passenger cars, SUVs, and pickups.
+            Direct from our workshop in Addis Ababa. We specialize entirely in upgrading passenger cars, SUVs, and pickups.
           </p>
           <div className="footer-notice-tag">
             <span>Cars, SUVs &amp; Pickups Only</span>
