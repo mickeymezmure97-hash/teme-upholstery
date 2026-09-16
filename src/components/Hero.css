@@ -52,7 +52,7 @@
   font-weight: 800;
   letter-spacing: -0.02em;
   margin-bottom: 1.25rem;
-  color: #ffffff;
+  color: var(--text-primary);
 }
 
 .hero-description {
@@ -75,7 +75,7 @@
   align-items: center;
   gap: 0.6rem;
   font-size: 0.95rem;
-  color: #e2e8f0;
+  color: var(--text-primary);
   font-weight: 500;
 }
 
@@ -96,9 +96,9 @@
 
 .hero-image-card {
   padding: 0.75rem;
-  background: rgba(21, 26, 34, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.2);
 }
 
 .hero-image-wrapper {
@@ -124,9 +124,9 @@
   bottom: 1.5rem;
   left: 1.5rem;
   right: 1.5rem;
-  background: rgba(14, 17, 22, 0.92);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-left: 3px solid var(--accent-red);
   padding: 0.85rem 1.25rem;
   border-radius: 8px;
@@ -146,7 +146,7 @@
 .badge-subtitle {
   font-size: 0.95rem;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--text-primary);
   margin-top: 0.2rem;
 }
 
@@ -156,7 +156,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 1.5rem 2rem;
-  background: rgba(18, 22, 30, 0.65);
+  background: rgba(255, 255, 255, 0.65);
   backdrop-filter: blur(16px);
   border: 1px solid var(--border-subtle);
 }
@@ -172,7 +172,7 @@
   font-family: var(--font-display);
   font-size: 1.75rem;
   font-weight: 800;
-  color: #ffffff;
+  color: var(--text-primary);
   line-height: 1.1;
 }
 

@@ -1,5 +1,5 @@
 .site-footer {
-  background: #050608;
+  background: #f4f0e6;
   border-top: 1px solid var(--border-subtle);
   padding: 4rem 0 0 0;
   position: relative;
@@ -43,7 +43,7 @@
   font-size: 1.35rem;
   font-weight: 900;
   letter-spacing: 0.08em;
-  color: #ffffff;
+  color: var(--text-primary);
   line-height: 1;
 }
 
@@ -79,7 +79,7 @@
   font-family: var(--font-display);
   font-size: 0.95rem;
   font-weight: 800;
-  color: #ffffff;
+  color: var(--text-primary);
   margin-bottom: 1.25rem;
 }
 
@@ -117,7 +117,7 @@
   font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 800;
-  color: #ffffff;
+  color: var(--text-primary);
 }
 
 .footer-phone-highlight:hover {
@@ -131,8 +131,8 @@
 }
 
 .footer-bottom-bar {
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  background: #030405;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background: #eae2d1;
   padding: 1.5rem 0;
 }
 
