@@ -69,28 +69,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Simple Reference-Style Facts Bar */}
-        <div className="hero-stats-bar card-atelier">
-          <div className="stat-box">
-            <span className="stat-number">10+</span>
-            <span className="stat-label">Years of Experience</span>
-          </div>
-          <div className="stat-divider"></div>
-          <div className="stat-box">
-            <span className="stat-number">5,000+</span>
-            <span className="stat-label">Happy Car Owners</span>
-          </div>
-          <div className="stat-divider"></div>
-          <div className="stat-box">
-            <span className="stat-number">100%</span>
-            <span className="stat-label">Automotive Focus</span>
-          </div>
-          <div className="stat-divider"></div>
-          <div className="stat-box">
-            <span className="stat-number">0903 51 11 11</span>
-            <span className="stat-label">Direct Phone / Call Anytime</span>
-          </div>
-        </div>
       </div>
     </section>
   );
