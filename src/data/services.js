@@ -1,10 +1,12 @@
+const base = import.meta.env.BASE_URL;
+
 export const servicesData = [
   {
     id: 'steering',
     serviceKey: 'steering-wheel',
     tag: 'STEERING WHEELS',
     title: 'Hand-Stitched Steering Wheel Cover',
-    image: '/services/steering-wheel.jpg',
+    image: `${base}services/steering-wheel.jpg`,
     category: 'steering',
     description: 'We wrap your steering wheel in real comfortable leather. Hand-stitched with strong thread and custom colors for great grip and feel while driving.',
     features: [
@@ -19,7 +21,7 @@ export const servicesData = [
     serviceKey: 'bespoke-cabin',
     tag: 'LEATHER SEATS',
     title: 'Full Car Leather Seats & Armrests',
-    image: '/services/bespoke-seats-green.jpg',
+    image: `${base}services/bespoke-seats-green.jpg`,
     category: 'seats',
     description: 'Complete new leather seats for your car. We replace old or worn cloth seats with clean, comfortable leather in any color you like (like Sage Green, Black, Brown, or Beige).',
     features: [
@@ -34,7 +36,7 @@ export const servicesData = [
     serviceKey: 'door-panels',
     tag: 'DOOR PANELS',
     title: 'Car Door Panel Leather Upholstery',
-    image: '/services/door-panel-orange.jpg',
+    image: `${base}services/door-panel-orange.jpg`,
     category: 'doors',
     description: 'Upgrade the side door panels and armrests of your car with matching leather. Beautiful lines, soft padding, and clean finish.',
     features: [
@@ -49,7 +51,7 @@ export const servicesData = [
     serviceKey: 'starlight-roof',
     tag: 'CEILING LIGHTS',
     title: 'Starlight Ceiling (Star Roof Lights)',
-    image: '/services/starlight-headliner.jpg',
+    image: `${base}services/starlight-headliner.jpg`,
     category: 'lighting',
     description: 'Transform your car ceiling into a shining starry night sky. We put hundreds of shining fiber optic star lights into your roof with phone app control.',
     features: [
@@ -64,7 +66,7 @@ export const servicesData = [
     serviceKey: 'sport-seats',
     tag: 'SPORT SEATS & MATS',
     title: 'Sport Two-Tone Seats & 7D Floor Mats',
-    image: '/services/twotone-prado-seats.jpg',
+    image: `${base}services/twotone-prado-seats.jpg`,
     category: 'seats',
     description: 'Sporty red and black seats for SUVs like Prado, Patrol, and Land Cruisers. Comes with matching neck pillows and heavy-duty 7D waterproof floor mats.',
     features: [

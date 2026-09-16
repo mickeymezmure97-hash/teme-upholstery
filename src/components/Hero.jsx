@@ -10,11 +10,11 @@ const Hero = () => {
           <div className="hero-content">
             <div className="hero-logo-badge">
               <img 
-                src="/logo.png" 
+                src={`${import.meta.env.BASE_URL}logo.png`} 
                 alt="TEME Upholstery Logo" 
                 className="hero-logo-emblem" 
               />
-              <span className="hero-badge-text">Cars &amp; SUVs Only (No House Furniture)</span>
+              <span className="hero-badge-text">Cars, SUVs &amp; Pickups Specialists</span>
             </div>
 
             <h1 className="hero-title">
@@ -56,9 +56,9 @@ const Hero = () => {
             <div className="hero-image-card card-atelier">
               <div className="hero-image-wrapper">
                 <img 
-                  src="/services/bespoke-seats-green.jpg" 
+                  src={`${import.meta.env.BASE_URL}services/bespoke-seats-green.jpg`} 
                   alt="Custom Car Leather Seats by TEME Upholstery" 
-                  className="hero-featured-image"
+                  className="hero-featured-image" 
                 />
               </div>
               <div className="hero-floating-badge">
@@ -83,7 +83,7 @@ const Hero = () => {
           <div className="stat-divider"></div>
           <div className="stat-box">
             <span className="stat-number">100%</span>
-            <span className="stat-label">Cars Only (No House Furniture)</span>
+            <span className="stat-label">Automotive Focus</span>
           </div>
           <div className="stat-divider"></div>
           <div className="stat-box">

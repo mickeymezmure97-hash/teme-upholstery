@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-brand-col">
           <div className="footer-brand-header">
             <img 
-              src="/logo.png" 
+              src={`${import.meta.env.BASE_URL}logo.png`} 
               alt="TEME UPHOLSTERY" 
               className="footer-logo-img" 
             />
@@ -22,7 +22,7 @@ const Footer = () => {
             Professional car interior upholstery and customization in Addis Ababa. We specialize exclusively in passenger cars, SUVs, and pickups.
           </p>
           <div className="footer-notice-tag">
-            <span>Cars Only • No House Furniture</span>
+            <span>Cars, SUVs &amp; Pickups Only</span>
           </div>
         </div>
 

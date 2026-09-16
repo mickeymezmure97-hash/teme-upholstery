@@ -18,9 +18,9 @@ const Craftsmanship = () => {
         <div className="features-grid-simple">
           <div className="simple-card card-atelier">
             <div className="card-number">01</div>
-            <h3>100% Cars Only</h3>
+            <h3>Automotive Specialists</h3>
             <p>
-              We do not fix sofas or home chairs. Every tool and worker in our shop is dedicated only to cars, SUVs, and 4x4s.
+              Every tool, machine, and technician in our workshop is dedicated exclusively to cars, SUVs, pickups, and 4x4s.
             </p>
           </div>
 
@@ -63,8 +63,8 @@ const Craftsmanship = () => {
             </div>
 
             <div className="faq-item">
-              <h4>Do you work on home furniture or sofas?</h4>
-              <p><strong>No.</strong> TEME Upholstery works strictly on cars, SUVs, pickups, and vans. We do not do household furniture.</p>
+              <h4>What types of vehicles do you work on?</h4>
+              <p>We specialize exclusively in passenger cars, luxury sedans, 4x4s, SUVs, and commercial pickups of any make and model.</p>
             </div>
 
             <div className="faq-item">

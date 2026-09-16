@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="container nav-container">
           <a href="#" className="brand-logo" onClick={closeMenu}>
             <img 
-              src="/logo.png" 
+              src={`${import.meta.env.BASE_URL}logo.png`} 
               alt="TEME UPHOLSTERY" 
               className="exact-logo-img" 
             />

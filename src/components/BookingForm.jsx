@@ -61,7 +61,7 @@ const BookingForm = ({ selectedServiceKey }) => {
           <div className="booking-sidebar card-atelier">
             <div className="sidebar-brand-box">
               <img 
-                src="/logo.png" 
+                src={`${import.meta.env.BASE_URL}logo.png`} 
                 alt="TEME UPHOLSTERY" 
                 className="sidebar-logo-img" 
               />
